@@ -9,6 +9,10 @@ html{
 /* Font Sizes & Family */
 /* if we set html's font size 62.5% then 1rem = 10px */
 
+#perfil{
+  height: 50px;
+  border-radius: 25px;
+}
 --body-font: 'Poppins', sans-serif;
 
 --big-font: 4rem;
