@@ -13,6 +13,10 @@ html{
   height: 50px;
   border-radius: 25px;
 }
+
+#title{
+  color: #FFF;
+}
 --body-font: 'Poppins', sans-serif;
 
 --big-font: 4rem;
