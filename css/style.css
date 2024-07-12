@@ -14,8 +14,22 @@ html{
   border-radius: 25px;
 }
 
+.logo{
+  display: flex;
+  height: 70px;
+  width: 200px;
+}
+
+#logoapp{
+  size: 10px;
+}
+
 #title{
   color: #FFF;
+  margin-top: 15px;
+  margin-right: 40px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 --body-font: 'Poppins', sans-serif;
 
@@ -75,7 +89,7 @@ html{
 }
 body{
   overflow-x: hidden;
-  background-color: var(--white-color);
+  background-image: url(images/fundo.jpeg);
 }
 
 /* Custom Scrollbar */
