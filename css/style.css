@@ -1,6 +1,10 @@
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+body{
+  background-image: url(images/fundo.jpeg);
+  background-repeat: repeat;
+}
 html{
     font-size: 62.5%; /* 1rem = 10px */
     scroll-behavior: smooth;
@@ -12,6 +16,11 @@ html{
 #perfil{
   height: 50px;
   border-radius: 25px;
+}
+
+#logo-rest{
+  border-radius: 40%;
+  border: 1px solid black;
 }
 
 .logo{
@@ -48,13 +57,13 @@ html{
 --font-semi-bold: 600;
 
 /* Color Variables */
---primary-color: #C87E4F;
---primary-color-hover: #C2703D;
+--primary-color: #3B1D0F;
+--primary-color-hover: #3B1D0F;
 --text-color: #333;
 --text-color-light: #888682;
 --border-color: #484848;
---white-color: #FFF;
---section-bg: #2C3034;
+--white-color: #CEC5B3;
+--section-bg: #3B1D0F;
 
 /* z-index */
 --z-overlay: 10;
@@ -101,7 +110,7 @@ body{
   width: 8px;
 }
 ::-webkit-scrollbar-track{
-  background-color: #f9f1ec;
+  background-color: #C6BFBF;
 }
 ::-webkit-scrollbar-thumb{
   border-radius: 1rem;
@@ -588,10 +597,7 @@ img{
   opacity: 1;
 }
 
-/* Review */
-.review{
-  background-color: #f2f2f2;
-}
+
 .review .section-title,
 .review .section-description{
   color: var(--text-color);
