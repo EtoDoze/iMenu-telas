@@ -18,6 +18,9 @@ html{
   border-radius: 25px;
 }
 
+.menu-img{
+  border-radius: 25%;
+}
 #logo-rest{
   border-radius: 40%;
   border: 1px solid black;
